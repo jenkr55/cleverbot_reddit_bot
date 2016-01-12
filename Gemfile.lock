@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cleverbot-api (0.0.4)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    multi_json (1.10.1)
+    multipart-post (2.0.0)
+    redd (0.6.5)
+      faraday (~> 0.9.0)
+      faraday_middleware (~> 0.9.1)
+      memoizable
+      multi_json (~> 1.10)
+    thread_safe (0.3.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cleverbot-api
+  redd
